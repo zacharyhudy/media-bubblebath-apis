@@ -5,6 +5,10 @@
   "scripts": {
     "start": "node ./bin/www"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacharyhudy/media-bubblebath-apis"
+  },
   "dependencies": {
     "api_500px": "0.0.3",
     "body-parser": "~1.0.0",
