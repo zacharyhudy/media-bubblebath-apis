@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1 Color Lovers.
+  p Welcome to #{title}
+  p really powerful
+  p= title
+
+  
+
+  p= colorResults[0].title
+  p= colorResults[0].colors
+  img(src= colorResults[0].imageUrl)

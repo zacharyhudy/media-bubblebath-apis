@@ -1,0 +1,38 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p really powerful
+  p= title
+
+  form#formAddUser(name="adduser",method="post",action="/instaSearch")
+
+        input#userInput(type="text", placeholder="search instagram", name="userInput")
+        
+        button#btnSubmit(type="submit") submit
+
+  form#formAddUser(name="adduser",method="post",action="/500pxSearch")
+
+        input#userInput(type="text", placeholder="search 500px", name="userInput500px")
+        
+        button#btnSubmit(type="submit") submit
+
+  form#formAddUser(name="adduser",method="post",action="/colorloverSearch")
+
+        input#userInput(type="text", placeholder="search Color", name="userInputColor")
+        
+        button#btnSubmit(type="submit") submit
+
+  form#formAddUser(name="adduser",method="post",action="/soundSearch")
+
+        input#userInput(type="text", placeholder="search artist", name="userInputSoundArtist")
+        input#userInput(type="text", placeholder="search track", name="userInputSoundTrack")
+        
+        button#btnSubmit(type="submit") submit
+
+  form#formAddUser(name="adduser",method="post",action="/youtubeSearch")
+
+        input#userInput(type="text", placeholder="search Youtube", name="userInputYoutube")
+
+        button#btnSubmit(type="submit") submit

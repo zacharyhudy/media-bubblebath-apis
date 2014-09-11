@@ -1,0 +1,68 @@
+{
+    "track_id": 15449912,
+    "track_mbid": "574eafc0-6909-4278-94fa-083ea5aefc61",
+    "track_isrc": "GBAYE1101143",
+    "track_spotify_id": "5OJXhFp5UKDnACV1yis0cL",
+    "track_soundcloud_id": 106420729,
+    "track_name": "Paradise",
+    "track_name_translation": [],
+    "track_rating": 100,
+    "track_length": 278,
+    "commontrack_id": 10016944,
+    "instrumental": false,
+    "explicit": 0,
+    "has_lyrics": true,
+    "has_subtitles": true,
+    "num_favourite": 3335,
+    "lyrics_id": 9564958,
+    "subtitle_id": 2192704,
+    "album_id": 13881272,
+    "album_name": "Paradise",
+    "artist_id": 1039,
+    "artist_mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+    "artist_name": "Coldplay",
+    "album_coverart_100x100": "http://static.musixmatch.com/images-storage/albums/6/9/1/9/7/7/13779196.jpg",
+    "album_coverart_350x350": "http://static.musixmatch.com/images-storage/albums/6/9/1/9/7/7/13779196_350_350.jpg",
+    "album_coverart_500x500": "http://static.musixmatch.com/images-storage/albums/6/9/1/9/7/7/13779196_500_500.jpg",
+    "album_coverart_800x800": "",
+    "track_share_url": "https://community.musixmatch.com/lyrics/Coldplay/Paradise",
+    "track_edit_url": "https://community.musixmatch.com/lyrics/Coldplay/Paradise?utm_source=application&utm_campaign=api&utm_medium=mxm",
+    "commontrack_vanity_id": "Coldplay/Paradise",
+    "updated_time": "2014-05-06T11:34:35Z",
+    "primary_genres": {
+        "music_genre": [
+            {
+                "music_genre_id": 20,
+                "music_genre_parent_id": 34,
+                "music_genre_name": "Alternative",
+                "music_genre_name_extended": "Alternative",
+                "music_genre_vanity": "Alternative"
+            },
+            {
+                "music_genre_id": 14,
+                "music_genre_parent_id": 34,
+                "music_genre_name": "Pop",
+                "music_genre_name_extended": "Pop",
+                "music_genre_vanity": "Pop"
+            }
+        ]
+    },
+    "secondary_genres": {
+        "music_genre": [
+            {
+                "music_genre_id": 1144,
+                "music_genre_parent_id": 21,
+                "music_genre_name": "Adult Alternative",
+                "music_genre_name_extended": "Rock / Adult Alternative",
+                "music_genre_vanity": "Rock-Adult-Alternative"
+            },
+            {
+                "music_genre_id": 21,
+                "music_genre_parent_id": 34,
+                "music_genre_name": "Rock",
+                "music_genre_name_extended": "Rock",
+                "music_genre_vanity": "Rock"
+            }
+        ]
+    }
+}

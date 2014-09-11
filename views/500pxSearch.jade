@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 500px 
+  p Welcome to #{title}
+  p really powerful
+  p= title
+
+  p= fiveResults.photos[0].user_id
+  img(src= fiveResults.photos[0].image_url) 
+
+  a(href= "https://www.500px.com" + fiveResults.photos[0].url target="_blank") choke

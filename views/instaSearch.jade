@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1 Instagram
+  p Welcome to #{title}
+  p really powerful
+  p= title
+
+  
+
+  -var string = JSON.stringify(instaResult[0])
+  p= string
+
+  img(src= instaResult[0].images.low_resolution.url)
+
+  p= instaResult[0].likes.count
+
+  img(src= instaResult[0].likes.data[1].profile_picture)
